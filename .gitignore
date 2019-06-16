@@ -10,3 +10,4 @@ coverage
 dist
 template/src
 template/public
+template/functions/nuxt
