@@ -2,7 +2,7 @@
   "functions": {
     "source": "functions",
     "predeploy": [
-      "npm --prefix functions run functionsBuild"
+      "npm --prefix src run build && npm --prefix functions run functionsBuild"
     ]
   },
   "hosting": {

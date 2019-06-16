@@ -4,17 +4,18 @@
 
 ## Features
 
-- ESLint
-- @nuxtjs/pwa'
-- Deploy in firebase
+- @nuxtjs
+- Deploy in firebase Hosting
 
 ## Create a Project
 
 ```bash
-npx vue-cli init nuxt-community/module-template <module-name>
-cd <module-name>
-npm run install
+vue init strujillodv/nuxt2-ssr-firebase-hosting <project-name>
+cd <project-name>
+npm i
 ```
+
+
 ## Configuration
 
 In Firebase Console create a Key for project -> serviceAccountKey.json
