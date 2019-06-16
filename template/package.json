@@ -1,0 +1,11 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "scripts": {
+    "dev": "cd src && npm run dev",
+    "install": "firebase init && npx create-nuxt-app src"
+  },
+  "author": "{{ author }}",
+  "license": "MIT"
+}
