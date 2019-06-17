@@ -1,4 +1,6 @@
-const admin = require('firebase-admin');
+import * as functions from 'firebase-functions';
+
+import * as admin from 'firebase-admin';
 
 const serviceAccount = require('./serviceAccountKey.json');
 
@@ -6,8 +8,6 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://clasificadoszipa.firebaseio.com"
 });
-
-const functions = require('firebase-functions');
 
 const { Nuxt } = require('nuxt-start');
 
