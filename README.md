@@ -1,6 +1,6 @@
-# Template for use Nuxt.js with Firebase Hosting
+# Plantilla para usar Nuxt.js SSR con Firebase Hosting
 
-> Nuxt.js template
+> Nuxt.js Plantilla
 
 Esta plantilla se creó inspirada en el blog de [William Chong](https://medium.com/@williamchong007_49374), el cual puede ser consultado en [Quick Nuxt.js SSR prototyping with Firebase Cloud Functions](https://medium.com/likecoin/quick-nuxt-js-ssr-prototyping-with-firebase-cloud-functions-5277553610a8)
 
