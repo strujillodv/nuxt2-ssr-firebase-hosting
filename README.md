@@ -58,6 +58,14 @@ Typescript
 Nos dirá que ya existen varios archivos de configuración en la carpeta de functions, que si queremos sobreescribirlos, a lo cual debemos decir que no.
 
 ```bash
+? File functions/package.json already exists. Overwrite? No
+i  Skipping write of functions/package.json
+? File functions/tslint.json already exists. Overwrite? No
+i  Skipping write of functions/tslint.json
+? File functions/tsconfig.json already exists. Overwrite? No
+i  Skipping write of functions/tsconfig.json
+? File functions/src/index.ts already exists. Overwrite? No
+i  Skipping write of functions/src/index.ts
 ```
 Pregunta que si queremos configurar la aplicación para modo SPA, le decimos que no.
 
